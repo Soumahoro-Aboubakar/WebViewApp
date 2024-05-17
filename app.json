@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Vortex AI Pro",
+    "slug": "vortex-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/vortexAi.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/vortexAi.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-localization"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/vortexAi.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "INTERNET"
+      ],
+      "package": "com.aboubakarkone.vortexai"
+    },
+    "web": {
+      "favicon": "./assets/vortexAi.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f50c72d7-d54d-48b0-8bea-a1cf34ed3728"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-8738536260846552~6417355999"
+  }
+}
